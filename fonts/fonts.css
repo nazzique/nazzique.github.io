@@ -1,0 +1,57 @@
+.menu-main a {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 14px;
+    color: #549de6;
+}
+
+.heading {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 40px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.par {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #aaa;
+}
+
+.pv1 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 21px;
+    font-weight: bold;
+    color: #EB5A5A;
+}
+
+.pv2 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 21px;
+    font-weight: bold;
+    color: #120FB6;
+}
+
+.pv3 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 21px;
+    font-weight: bold;
+    color: #D5B410;
+}
+
+.button {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 25px;
+}
+
+.box {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #aaa;
+}
+
+#toTop {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+

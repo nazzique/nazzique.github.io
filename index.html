@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="styles/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Aldrich|Bowlby+One+SC" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NaZ. Frond End Dev</title>
+</head>
+<body>
+    <header>
+        <nav class="top-menu">
+            <a class="navbar-logo" href=""><img src="images/logo2.png" class="image" alt="personal logo"></a>
+            <ul class="menu-main">
+                <li><a class="select" href="#about">About</a></li>
+                <li><a class="select" href="#work">Work</a></li>
+                <li><a class="select" href="#gallery">Gallery</a></li>
+                <li><a class="select" href="#social">Social</a></li>
+                <li><a class="select" href="#sign">Sign Up</a></li>
+                <li><a class="select" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="block3" id="about">
+        <h1 class="heading">
+            Hi, I am Nazar
+        </h1>
+        <p class="par">
+            Front End Developer, living in Kiev, Ukraine
+        </p>
+    </div>
+    <div class="block" id="work">
+        <div class="block2">
+            <div class="d3d">
+                <img class="logo" src="images/htmllogo.png" alt="html logo">
+                <div class="pd">
+                    <div class="pv1">
+                        Tables<br>
+                        Anchors<br>
+                        Images<br>
+                        Lists<br>
+                        etc.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block2">
+            <div class="d3d">
+                <img class="logo" src="images/csslogo.png" alt="css logo">
+                <div class="pd">
+                    <div class="pv2">
+                        Animations<br>
+                        Cascading<br>
+                        Inheritance<br>
+                        Validation<br>
+                        etc.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block2">
+            <div class="d3d">
+                <img class="logo" src="images/jslogo1.png" alt="javascript logo">
+                <div class="pd">
+                    <div class="pv3">
+                        Objects<br>
+                        Json<br>
+                        Arrays<br>
+                        Math<br>
+                        etc.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block3" id="gallery">
+        <p class="par">
+            Gallery
+        </p>
+        <a href="images/img1.jpeg" data-lightbox="roadtrip"><img src="images/img1.jpeg" alt="flower"></a>
+        <a href="images/img2.jpeg" data-lightbox="roadtrip"><img src="images/img2.jpeg" alt="lake"></a>
+        <a href="images/img3.jpeg" data-lightbox="roadtrip"><img src="images/img3.jpeg" alt="road"></a>
+        <a href="images/img4.jpeg" data-lightbox="roadtrip"><img src="images/img4.jpeg" alt="beach"></a>
+        <a href="images/img5.jpeg" data-lightbox="roadtrip"><img src="images/img5.jpeg" alt="building"></a>
+        <a href="images/img6.jpeg" data-lightbox="roadtrip"><img src="images/img6.jpeg" alt="plant"></a>
+    </div>
+    <div class="block3" id="social">
+        <a href="https://www.facebook.com/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.google.com" class="google" target="_blank"><i class="fa fa-google"></i></a>
+        <a href="https://www.linkedin.com/" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+    </div>
+    <footer>
+        <div class="block4" id="sign">
+            <form class="box" method="post" name="form1">
+                <h1>Sign Up</h1>
+                <input type="email" name="email" placeholder="E-mail">
+                <input type="password" name="pass" placeholder="Password">
+                <input type="submit" name="" value="Sign Up">
+            </form>
+        </div>
+        <div class="block3" id="contact">
+            <a href="mailto:nazzique@gmail.com" class="button">Contact Me</a>
+        </div>
+    </footer>
+    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+    <div id="toTop" > Up </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            $(window).scroll(function() {
+
+                if($(this).scrollTop() != 0) {
+
+                    $('#toTop').fadeIn();
+
+                } else {
+
+                    $('#toTop').fadeOut();
+
+                }
+
+            });
+
+            $('#toTop').click(function() {
+
+                $('body,html').animate({scrollTop:0},800);
+
+            });
+
+        });
+    </script>
+</body>
+</html>
